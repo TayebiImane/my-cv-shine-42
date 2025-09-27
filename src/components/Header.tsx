@@ -20,29 +20,31 @@ const Header = () => {
   ];
 
   return (
-    <header className={`fixed top-0 w-full z-50 transition-smooth ${
-      isScrolled ? 'glass backdrop-blur-md' : 'bg-transparent'
+    <header className={`fixed top-0 w-full z-50 transition-smooth animate-fade-in-down ${
+      isScrolled ? 'glass backdrop-blur-md shadow-2xl' : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold gradient-text">
+          <div className="text-xl font-bold gradient-text animate-text-shimmer bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_auto]">
             Imane Tayebi
           </div>
           
           <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
+            {navItems.map((item, index) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-muted-foreground hover:text-primary transition-smooth hover:scale-105"
+                className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110 relative group animate-fade-in-down"
+                style={{ animationDelay: `${index * 0.1 + 0.2}s` }}
               >
                 {item.name}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary group-hover:w-full transition-all duration-300"></span>
               </a>
             ))}
           </div>
           
           <div className="md:hidden">
-            <button className="text-foreground">
+            <button className="text-foreground hover:text-primary transition-smooth hover:scale-110 animate-fade-in-down">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
