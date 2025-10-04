@@ -43,15 +43,10 @@ const About = () => {
               <h3 className="text-2xl font-bold text-primary mb-4">
                 My Journey
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
+              <p className="text-muted-foreground leading-relaxed animate-fade-in" style={{ animationDelay: '0.3s' }}>
                 I am a Moroccan student in my fifth year of Computer Engineering at ENSAK Kénitra. 
                 At 21 years old, I am passionate about new technologies and currently seeking a 
                 PFE internship starting in January to apply my skills and contribute to innovative projects.
-              </p>
-              <p className="text-muted-foreground leading-relaxed animate-fade-in" style={{ animationDelay: '0.5s' }}>
-                My journey includes hands-on experience in data analysis, web development, and 
-                network optimization through various internships and academic projects. I thrive 
-                on solving complex problems and turning ideas into reality through code.
               </p>
             </div>
           </div>

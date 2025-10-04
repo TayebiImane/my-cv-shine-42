@@ -25,8 +25,8 @@ const Header = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold text-primary">
-            Imane Tayebi
+          <div className="text-xl font-bold text-primary font-script">
+            ꧁༺ 𝐈𝐦𝐚𝐧𝐞 𝐓𝐚𝐲𝐞𝐛𝐢 ༻꧂
           </div>
           
           <div className="hidden md:flex space-x-8">
