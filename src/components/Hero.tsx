@@ -9,7 +9,6 @@ const Hero = () => {
           {/* Text Content */}
           <div className="space-y-8">
             <div className="animate-fade-in-left">
-              <h2 className="text-lg text-primary mb-2 animate-glow-pulse">Hello, I'm</h2>
               <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 animate-scale-in-bounce">
                 Imane Tayebi
               </h1>
