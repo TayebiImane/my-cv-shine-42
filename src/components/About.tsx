@@ -1,12 +1,20 @@
 import { Card } from '@/components/ui/card';
 
 const About = () => {
-  const highlights = [
+  const education = [
     {
-      icon: "🎓",
-      title: "Education",
-      description: "5th year Computer Engineering at ENSAK Kénitra, strong foundation in CS fundamentals"
+      degree: "Preparatory Cycle, Engineering Cycle in Computer Science",
+      school: "ENSAK",
+      icon: "🎓"
     },
+    {
+      degree: "Baccalaureate in Mathematical Sciences A",
+      school: "Palestine High School, Jorf El Melha",
+      icon: "📚"
+    }
+  ];
+
+  const highlights = [
     {
       icon: "💼",
       title: "Experience", 
@@ -51,24 +59,45 @@ const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in-right">
-            {highlights.map((item, index) => (
-              <Card 
-                key={index} 
-                className="glass p-6 hover:glow transition-bounce hover:scale-110 hover:rotate-1 border-primary/20 group cursor-pointer animate-scale-in"
-                style={{ animationDelay: `${index * 0.1 + 0.4}s` }}
-              >
-                <div className="text-3xl mb-3 group-hover:animate-bounce group-hover:scale-125 transition-all duration-300">
-                  {item.icon}
-                </div>
-                <h4 className="text-lg font-semibold text-primary mb-2">
-                  {item.title}
-                </h4>
-                <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300">
-                  {item.description}
-                </p>
-              </Card>
-            ))}
+          <div className="space-y-6 animate-fade-in-right">
+            <div className="glass rounded-2xl p-8 border border-primary/20 hover:glow transition-smooth hover:scale-105">
+              <h3 className="text-2xl font-bold text-primary mb-6">Education</h3>
+              <div className="space-y-4">
+                {education.map((edu, index) => (
+                  <div key={index} className="flex gap-4 animate-fade-in" style={{ animationDelay: `${index * 0.1 + 0.4}s` }}>
+                    <div className="text-2xl">{edu.icon}</div>
+                    <div>
+                      <h4 className="font-semibold text-foreground">{edu.degree}</h4>
+                      <p className="text-sm text-muted-foreground">{edu.school}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4">
+              {highlights.map((item, index) => (
+                <Card 
+                  key={index} 
+                  className="glass p-6 hover:glow transition-bounce hover:scale-105 border-primary/20 group cursor-pointer animate-scale-in"
+                  style={{ animationDelay: `${index * 0.1 + 0.6}s` }}
+                >
+                  <div className="flex items-center gap-4">
+                    <div className="text-3xl group-hover:animate-bounce group-hover:scale-125 transition-all duration-300">
+                      {item.icon}
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-primary mb-1">
+                        {item.title}
+                      </h4>
+                      <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </div>
