@@ -25,7 +25,7 @@ const Header = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold gradient-text animate-text-shimmer bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_auto]">
+          <div className="text-xl font-bold text-primary">
             Imane Tayebi
           </div>
           

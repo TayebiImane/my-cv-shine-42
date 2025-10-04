@@ -29,7 +29,7 @@ const About = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 animate-gradient-shift"></div>
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 animate-scale-in-bounce">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -40,7 +40,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in-left">
             <div className="glass rounded-2xl p-8 border border-primary/20 hover:glow transition-smooth hover:scale-105 group">
-              <h3 className="text-2xl font-bold text-primary mb-4 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+              <h3 className="text-2xl font-bold text-primary mb-4">
                 My Journey
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
@@ -66,7 +66,7 @@ const About = () => {
                 <div className="text-3xl mb-3 group-hover:animate-bounce group-hover:scale-125 transition-all duration-300">
                   {item.icon}
                 </div>
-                <h4 className="text-lg font-semibold text-primary mb-2 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                <h4 className="text-lg font-semibold text-primary mb-2">
                   {item.title}
                 </h4>
                 <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300">

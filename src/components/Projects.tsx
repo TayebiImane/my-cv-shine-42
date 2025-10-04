@@ -80,7 +80,7 @@ const Projects = () => {
       
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 animate-scale-in-bounce">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
             Academic Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -107,7 +107,7 @@ const Projects = () => {
                   </Badge>
                 </div>
                 
-                <h3 className="text-lg font-bold text-primary mb-3 line-clamp-2 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                <h3 className="text-lg font-bold text-primary mb-3 line-clamp-2">
                   {project.title}
                 </h3>
                 
@@ -117,7 +117,7 @@ const Projects = () => {
                 
                 <div className="space-y-4">
                   <div className="animate-fade-in" style={{ animationDelay: `${index * 0.15 + 0.2}s` }}>
-                    <h4 className="text-xs font-semibold text-primary mb-2 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                    <h4 className="text-xs font-semibold text-primary mb-2">
                       Key Features:
                     </h4>
                     <ul className="space-y-1">
@@ -135,7 +135,7 @@ const Projects = () => {
                   </div>
                   
                   <div className="animate-fade-in" style={{ animationDelay: `${index * 0.15 + 0.4}s` }}>
-                    <h4 className="text-xs font-semibold text-primary mb-2 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                    <h4 className="text-xs font-semibold text-primary mb-2">
                       Technologies:
                     </h4>
                     <div className="flex flex-wrap gap-1">

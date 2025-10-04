@@ -56,7 +56,7 @@ const Experience = () => {
       
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 animate-scale-in-bounce">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
             Work Experience
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -77,7 +77,7 @@ const Experience = () => {
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="md:col-span-2">
                     <div className="flex flex-wrap items-center gap-2 mb-3">
-                      <h3 className="text-xl font-bold text-primary group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                      <h3 className="text-xl font-bold text-primary">
                         {exp.title}
                       </h3>
                       <Badge 
@@ -107,7 +107,7 @@ const Experience = () => {
                     </p>
                     
                     <div className="mb-4 animate-fade-in" style={{ animationDelay: `${index * 0.2 + 0.3}s` }}>
-                      <h4 className="text-sm font-semibold text-primary mb-2 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                      <h4 className="text-sm font-semibold text-primary mb-2">
                         Key Achievements:
                       </h4>
                       <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground group-hover:text-foreground transition-colors">
@@ -126,7 +126,7 @@ const Experience = () => {
                   
                   <div className="space-y-4 animate-fade-in-right" style={{ animationDelay: `${index * 0.2 + 0.5}s` }}>
                     <div>
-                      <h4 className="text-sm font-semibold text-primary mb-2 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                      <h4 className="text-sm font-semibold text-primary mb-2">
                         Technologies Used:
                       </h4>
                       <div className="flex flex-wrap gap-2">

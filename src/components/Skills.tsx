@@ -47,7 +47,7 @@ const Skills = () => {
       
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 animate-scale-in-bounce">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
             Skills & Technologies
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -69,7 +69,7 @@ const Skills = () => {
                   <span className="text-3xl mr-3 group-hover:animate-bounce group-hover:scale-125 transition-all duration-300">
                     {category.icon}
                   </span>
-                  <h3 className="text-lg font-semibold text-primary group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                  <h3 className="text-lg font-semibold text-primary">
                     {category.category}
                   </h3>
                 </div>
@@ -95,7 +95,7 @@ const Skills = () => {
           <Card className="glass p-8 max-w-4xl mx-auto border-primary/20 hover:glow transition-smooth hover:scale-105 group relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
             <div className="relative z-10">
-              <h3 className="text-2xl font-bold text-primary mb-4 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+              <h3 className="text-2xl font-bold text-primary mb-4">
                 Soft Skills
               </h3>
               <div className="flex flex-wrap justify-center gap-4">

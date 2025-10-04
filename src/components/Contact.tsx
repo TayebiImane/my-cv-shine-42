@@ -64,7 +64,7 @@ const Contact = () => {
       
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 animate-scale-in-bounce">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -78,7 +78,7 @@ const Contact = () => {
             <Card className="glass p-8 border-primary/20 hover:glow transition-bounce hover:scale-105 group relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold text-primary mb-6 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                <h3 className="text-2xl font-bold text-primary mb-6">
                   Let's Connect
                 </h3>
                 <p className="text-muted-foreground mb-8 leading-relaxed group-hover:text-foreground transition-colors animate-fade-in" style={{ animationDelay: '0.3s' }}>
@@ -98,7 +98,7 @@ const Contact = () => {
                         {info.icon}
                       </span>
                       <div>
-                        <p className="text-sm font-medium text-primary group-hover/item:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                        <p className="text-sm font-medium text-primary">
                           {info.label}
                         </p>
                         {info.link ? (
@@ -123,7 +123,7 @@ const Contact = () => {
             <Card className="glass p-8 border-primary/20 hover:glow transition-bounce hover:scale-105 group relative overflow-hidden animate-fade-in-left" style={{ animationDelay: '0.8s' }}>
               <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-primary/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
               <div className="relative z-10">
-                <h3 className="text-xl font-bold text-primary mb-4 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+                <h3 className="text-xl font-bold text-primary mb-4">
                   Availability
                 </h3>
                 <div className="space-y-2 text-muted-foreground group-hover:text-foreground transition-colors">
@@ -145,7 +145,7 @@ const Contact = () => {
           <Card className="glass p-8 border-primary/20 hover:glow transition-smooth hover:scale-105 group relative overflow-hidden animate-fade-in-right">
             <div className="absolute inset-0 bg-gradient-to-bl from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
             <div className="relative z-10">
-              <h3 className="text-2xl font-bold text-primary mb-6 group-hover:animate-text-shimmer bg-gradient-to-r from-primary to-accent bg-[length:200%_auto]">
+              <h3 className="text-2xl font-bold text-primary mb-6">
                 Send a Message
               </h3>
               <form onSubmit={handleSubmit} className="space-y-6">
