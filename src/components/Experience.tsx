@@ -4,6 +4,21 @@ import { Badge } from '@/components/ui/badge';
 const Experience = () => {
   const experiences = [
     {
+      title: "Road Network Segmentation Intern", 
+      company: "ORANGE MAROC",
+      location: "Casablanca",
+      period: "July 2025 - August 2025",
+      type: "On-site", 
+      description: "Segmented Moroccan road network for traffic optimization using Python, Excel, and GIS tools.",
+      technologies: ["Python", "Excel", "GIS", "QGIS", "Data Processing"],
+      achievements: [
+        "Analyzed and segmented national road network",
+        "Created traffic optimization algorithms",
+        "Generated detailed geographical reports"
+      ],
+      gradient: "from-orange-500/20 to-red-500/20"
+    },
+    {
       title: "Data Analysis Intern",
       company: "GOFTY SOLUTIONS",
       location: "Marrakech",
@@ -32,21 +47,6 @@ const Experience = () => {
         "Optimized website performance"
       ],
       gradient: "from-green-500/20 to-emerald-500/20"
-    },
-    {
-      title: "Road Network Segmentation Intern", 
-      company: "ORANGE MAROC",
-      location: "Casablanca",
-      period: "July 2023 - August 2023",
-      type: "On-site", 
-      description: "Segmented Moroccan road network for traffic optimization using Python, Excel, and GIS tools.",
-      technologies: ["Python", "Excel", "GIS", "QGIS", "Data Processing"],
-      achievements: [
-        "Analyzed and segmented national road network",
-        "Created traffic optimization algorithms",
-        "Generated detailed geographical reports"
-      ],
-      gradient: "from-orange-500/20 to-red-500/20"
     }
   ];
 
