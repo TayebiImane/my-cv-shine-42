@@ -18,6 +18,21 @@ const Experience = () => {
       ],
       gradient: "from-orange-500/20 to-red-500/20"
     },
+        {
+      title: "Web Development Intern",
+      company: "GOFTY SOLUTIONS",
+      location: "Marrakech", 
+      period: "January 2025 - March 2025",
+      type: "Remote",
+      description: "Developed a showcase website for the company using React.",
+      technologies: ["React", "JavaScript", "HTML/CSS", "Web Development"],
+      achievements: [
+        "Built responsive company showcase website",
+        "Implemented modern UI/UX design",
+        "Optimized website performance"
+      ],
+      gradient: "from-green-500/20 to-emerald-500/20"
+    },
     {
       title: "Data Analysis Intern",
       company: "GOFTY SOLUTIONS",
@@ -32,21 +47,6 @@ const Experience = () => {
         "Optimized data processing workflows"
       ],
       gradient: "from-blue-500/20 to-cyan-500/20"
-    },
-    {
-      title: "Web Development Intern",
-      company: "GOFTY SOLUTIONS",
-      location: "Marrakech", 
-      period: "January 2024 - March 2024",
-      type: "Remote",
-      description: "Developed a showcase website for the company using React.",
-      technologies: ["React", "JavaScript", "HTML/CSS", "Web Development"],
-      achievements: [
-        "Built responsive company showcase website",
-        "Implemented modern UI/UX design",
-        "Optimized website performance"
-      ],
-      gradient: "from-green-500/20 to-emerald-500/20"
     }
   ];
 
