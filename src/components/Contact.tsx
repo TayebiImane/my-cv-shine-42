@@ -68,7 +68,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Ready for a PFE internship starting January 2025. Let's discuss how I can contribute to your team!
+            Ready for a PFE internship starting January 2026. Let's discuss how I can contribute to your team!
           </p>
         </div>
 
