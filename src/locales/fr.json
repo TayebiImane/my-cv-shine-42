@@ -211,6 +211,20 @@
         ]
       },
       {
+        "title": "Stagiaire en Développement Web",
+        "company": "GOFTY SOLUTIONS",
+        "location": "Marrakech",
+        "period": "Janvier 2025 - Mars 2025",
+        "type": "Distanciel",
+        "description": "Développement d'un site vitrine pour l'entreprise en utilisant React.",
+        "technologies": ["React", "JavaScript", "HTML/CSS", "Développement Web"],
+        "achievements": [
+          "Construit un site vitrine responsive pour l'entreprise",
+          "Implémenté un design UI/UX moderne",
+          "Optimisé les performances du site web"
+        ]
+      },
+      {
         "title": "Stagiaire en Analyse de Données",
         "company": "GOFTY SOLUTIONS",
         "location": "Marrakech",
@@ -222,20 +236,6 @@
           "Implémenté des modèles ML pour l'analyse de sentiment",
           "Créé des tableaux de bord de visualisation de données",
           "Optimisé les flux de traitement de données"
-        ]
-      },
-      {
-        "title": "Stagiaire en Développement Web",
-        "company": "GOFTY SOLUTIONS",
-        "location": "Marrakech",
-        "period": "Janvier 2024 - Mars 2024",
-        "type": "Distanciel",
-        "description": "Développement d'un site vitrine pour l'entreprise en utilisant React.",
-        "technologies": ["React", "JavaScript", "HTML/CSS", "Développement Web"],
-        "achievements": [
-          "Construit un site vitrine responsive pour l'entreprise",
-          "Implémenté un design UI/UX moderne",
-          "Optimisé les performances du site web"
         ]
       }
     ],
