@@ -1,0 +1,387 @@
+{
+  "Header": {
+    "navItems": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience", 
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "menu": "Menu"
+  },
+  "Hero": {
+    "title": "Imane Tayebi",
+    "subtitle": "Computer Science Engineer", 
+    "description": "Passionate about new technologies, data science, and web development. Currently seeking a PFE internship to apply my skills in innovative projects.",
+    "buttons": {
+      "getInTouch": "Get In Touch",
+      "viewWork": "View My Work"
+    },
+    "social": {
+      "email": "Send email",
+      "github": "GitHub profile",
+      "linkedin": "LinkedIn profile"
+    },
+    "altText": "Imane Tayebi - Computer Science Engineer"
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "A passionate 21-year-old computer science student with expertise in modern technologies",
+    "journey": {
+      "title": "My Journey", 
+      "description": "I am a Moroccan student in my fifth year of Computer Engineering at ENSAK Kénitra. At 21 years old, I am passionate about new technologies and currently seeking a PFE internship starting in January to apply my skills and contribute to innovative projects."
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Preparatory Cycle, Engineering Cycle in Computer Science",
+          "school": "ENSAK"
+        },
+        {
+          "degree": "Baccalaureate in Mathematical Sciences A", 
+          "school": "Palestine High School, Jorf El Melha"
+        }
+      ]
+    },
+    "highlights": [
+      {
+        "title": "Experience",
+        "description": "Data Analysis, Web Development, and Network Segmentation internships"
+      },
+      {
+        "title": "Languages",
+        "description": "Native Arabic, Fluent in French and English"
+      },
+      {
+        "title": "Goal",
+        "description": "Seeking PFE internship to apply skills in innovative projects"
+      }
+    ]
+  },
+  "Skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "A comprehensive toolkit for modern software development and data science",
+    "categories": [
+      {
+        "category": "Programming Languages",
+        "skills": [
+          "Python",
+          "Java",
+          "C/C++",
+          "JavaScript",
+          "TypeScript",
+          "R",
+          "Bash",
+          "SQL"
+        ]
+      },
+      {
+        "category": "Web Development",
+        "skills": [
+          "React.js",
+          "Next.js",
+          "Express.js",
+          "Laravel",
+          "Bootstrap",
+          "TailwindCSS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "category": "Data Science & AI/ML",
+        "skills": [
+          "NumPy",
+          "Pandas",
+          "Scikit-learn",
+          "TensorFlow",
+          "PyTorch",
+          "OpenCV",
+          "NLP",
+          "LLMs (GPT, BERT, XLNet)",
+          "LangChain"
+        ]
+      },
+      {
+        "category": "Databases",
+        "skills": [
+          "MySQL",
+          "PostgreSQL",
+          "MariaDB",
+          "SQLite",
+          "Oracle",
+          "Redis",
+          "MongoDB",
+          "Cassandra"
+        ]
+      },
+      {
+        "category": "Operating Systems",
+        "skills": [
+          "Windows",
+          "Linux (Ubuntu, Debian, Kali Linux)"
+        ]
+      },
+      {
+        "category": "Version Control",
+        "skills": [
+          "Git",
+          "GitHub",
+          "GitLab"
+        ]
+      },
+      {
+        "category": "Design & Modeling",
+        "skills": [
+          "UML",
+          "Figma",
+          "PowerAMC"
+        ]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "skills": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "CI/CD",
+          "Postman"
+        ]
+      },
+      {
+        "category": "Testing & Quality Assurance",
+        "skills": [
+          "Unit Testing",
+          "Integration Testing",
+          "TDD",
+          "JUnit",
+          "PyTest",
+          "Selenium"
+        ]
+      },
+      {
+        "category": "Tools & Methodologies",
+        "skills": [
+          "VS Code",
+          "QGIS",
+          "Linux",
+          "Agile/Scrum",
+          "Documentation"
+        ]
+      }
+    ],
+    "softSkills": {
+      "title": "Soft Skills",
+      "skills": [
+        "Teamwork",
+        "Problem Solving",
+        "Critical Thinking",
+        "Project Management",
+        "Communication",
+        "Adaptability",
+        "Leadership",
+        "Vibe Coding"
+      ]
+    }
+  },
+  "Experience": {
+    "title": "Work Experience",
+    "subtitle": "Hands-on experience across data science, web development, and network optimization",
+    "experiences": [
+      {
+        "title": "Road Network Segmentation Intern",
+        "company": "ORANGE MAROC",
+        "location": "Casablanca",
+        "period": "July 2025 - August 2025",
+        "type": "On-site",
+        "description": "Segmented Moroccan road network for traffic optimization using Python, Excel, and GIS tools.",
+        "technologies": ["Python", "Excel", "GIS", "QGIS", "Data Processing"],
+        "achievements": [
+          "Analyzed and segmented national road network",
+          "Created traffic optimization algorithms",
+          "Generated detailed geographical reports"
+        ]
+      },
+      {
+        "title": "Data Analysis Intern",
+        "company": "GOFTY SOLUTIONS",
+        "location": "Marrakech",
+        "period": "June 2024 - August 2024",
+        "type": "Hybrid",
+        "description": "Designed chartflow to structure data analysis and performed sentiment analysis using Python ML techniques.",
+        "technologies": ["Python", "Machine Learning", "Data Analysis", "Sentiment Analysis"],
+        "achievements": [
+          "Implemented ML models for sentiment analysis",
+          "Created data visualization dashboards",
+          "Optimized data processing workflows"
+        ]
+      },
+      {
+        "title": "Web Development Intern",
+        "company": "GOFTY SOLUTIONS",
+        "location": "Marrakech",
+        "period": "January 2024 - March 2024",
+        "type": "Remote",
+        "description": "Developed a showcase website for the company using React.",
+        "technologies": ["React", "JavaScript", "HTML/CSS", "Web Development"],
+        "achievements": [
+          "Built responsive company showcase website",
+          "Implemented modern UI/UX design",
+          "Optimized website performance"
+        ]
+      }
+    ],
+    "sections": {
+      "keyAchievements": "Key Achievements:",
+      "technologiesUsed": "Technologies Used:"
+    },
+    "types": {
+      "onSite": "On-site",
+      "hybrid": "Hybrid",
+      "remote": "Remote"
+    }
+  },
+  "Projects": {
+    "title": "Academic Projects",
+    "subtitle": "Innovative projects showcasing technical expertise and problem-solving skills",
+    "projects": [
+      {
+        "title": "University Graduates Employability Study",
+        "description": "Statistical analysis of employment outcomes for university graduates using advanced R programming and Excel data visualization techniques.",
+        "technologies": ["R", "Excel", "Statistics", "Data Visualization"],
+        "category": "Data Analysis",
+        "highlights": [
+          "Comprehensive statistical modeling",
+          "Interactive data visualizations",
+          "Employment trend analysis"
+        ]
+      },
+      {
+        "title": "Multi-Language Poem/Song Verifier & Translator",
+        "description": "Advanced NLP application supporting Arabic, Darija, Tamazight, French, and English with real-time translation and content verification.",
+        "technologies": ["Python", "Flask", "NLP", "Machine Learning"],
+        "category": "AI/NLP",
+        "highlights": [
+          "Multi-language support (5 languages)",
+          "Real-time translation engine",
+          "Content verification algorithms"
+        ]
+      },
+      {
+        "title": "Hotel Booking Website Prototype",
+        "description": "Modern hotel booking interface design with intuitive user experience and responsive layout for seamless reservation management.",
+        "technologies": ["Figma", "UI/UX Design", "Prototyping"],
+        "category": "Design",
+        "highlights": [
+          "User-centered design approach",
+          "Interactive prototype",
+          "Responsive design system"
+        ]
+      },
+      {
+        "title": "Job Offer Scraping & Classification",
+        "description": "Intelligent job market analysis tool that scrapes job offers and classifies them using machine learning algorithms.",
+        "technologies": ["Java", "Machine Learning", "Web Scraping"],
+        "category": "Machine Learning",
+        "highlights": [
+          "Automated web scraping",
+          "ML-based job classification",
+          "Market trend analysis"
+        ]
+      },
+      {
+        "title": "Absence Management System",
+        "description": "Full-stack web application for educational institutions to efficiently track and manage student/staff attendance.",
+        "technologies": ["React", "PostgreSQL", "Express.js", "Node.js"],
+        "category": "Full Stack",
+        "highlights": [
+          "Real-time attendance tracking",
+          "Role-based access control",
+          "Comprehensive reporting system"
+        ]
+      }
+    ],
+    "sections": {
+      "keyFeatures": "Key Features:",
+      "technologies": "Technologies:",
+      "viewMore": "View More Projects on GitHub"
+    },
+    "categories": {
+      "Data Analysis": "Data Analysis",
+      "AI/NLP": "AI/NLP",
+      "Design": "Design",
+      "Machine Learning": "Machine Learning",
+      "Full Stack": "Full Stack"
+    }
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready for a PFE internship starting January 2025. Let's discuss how I can contribute to your team!",
+    "letsConnect": {
+      "title": "Let's Connect",
+      "description": "I'm actively seeking a PFE (Projet de Fin d'Études) internship starting in January 2025. With my background in computer engineering and hands-on experience in data science and web development, I'm excited to contribute to innovative projects and continue learning."
+    },
+    "availability": {
+      "title": "Availability",
+      "items": [
+        "🗓️ <strong>Available from:</strong> January 2025",
+        "⏰ <strong>Duration:</strong> 4-6 months (PFE internship)",
+        "🌍 <strong>Open to:</strong> Remote, Hybrid, or On-site positions"
+      ]
+    },
+    "sendMessage": {
+      "title": "Send a Message",
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "your.email@example.com",
+        "subject": "What's this about?",
+        "message": "Tell me about your project or internship opportunity..."
+      },
+      "submit": "Send Message"
+    },
+    "contactInfo": [
+      {
+        "label": "Email",
+        "value": "imane.tayebi@uit.ac.ma"
+      },
+      {
+        "label": "Phone",
+        "value": "+212 690 292 055"
+      },
+      {
+        "label": "Location",
+        "value": "Kénitra, Morocco"
+      },
+      {
+        "label": "Institution",
+        "value": "ENSAK Kénitra"
+      }
+    ],
+    "toast": {
+      "title": "Message sent!",
+      "description": "Thank you for your message. I'll get back to you soon!"
+    }
+  },
+  "Footer": {
+    "name": "Imane Tayebi",
+    "title": "Ingénieure en Informatique",
+    "copyright": "2025 Imane Tayebi. Tous droits réservés.",
+    "builtWith": "Construit avec React & TypeScript",
+    "availability": "🚀 Disponible pour stage PFE à partir de janvier 2025",
+    "social": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

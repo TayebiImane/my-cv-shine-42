@@ -3,8 +3,9 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
+// https://vitejs.dev/config/npm run deploy
 export default defineConfig(({ mode }) => ({
+  base: "/my-cv-shine-42/",
   server: {
     host: "::",
     port: 8080,

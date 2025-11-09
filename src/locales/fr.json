@@ -1,0 +1,391 @@
+{
+  "Header": {
+    "navItems": {
+      "about": "À propos",
+      "skills": "Compétences", 
+      "experience": "Expérience",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "menu": "Menu"
+  },
+   "Hero": {
+    "title": "Imane Tayebi",
+    "subtitle": "Ingénieure en Informatique",
+    "description": "Passionnée par les nouvelles technologies, la science des données et le développement web. Actuellement à la recherche d'un stage PFE pour appliquer mes compétences dans des projets innovants.",
+    "buttons": {
+      "getInTouch": "Me Contacter",
+      "viewWork": "Voir Mon Travail"
+    },
+    "social": {
+      "email": "Envoyer un email",
+      "github": "Profil GitHub", 
+      "linkedin": "Profil LinkedIn"
+    },
+    "altText": "Imane Tayebi - Ingénieure en Informatique"
+  },
+  "About": {
+    "title": "À Propos de Moi",
+    "subtitle": "Une étudiante passionnée en informatique de 21 ans avec une expertise dans les technologies modernes",
+    "journey": {
+      "title": "Mon Parcours",
+      "description": "Je suis une étudiante marocaine en cinquième année d'ingénierie informatique à l'ENSAK Kénitra. À 21 ans, je suis passionnée par les nouvelles technologies et je recherche actuellement un stage PFE à partir de janvier pour appliquer mes compétences et contribuer à des projets innovants."
+    },
+    "education": {
+      "title": "Formation",
+      "items": [
+        {
+          "degree": "Cycle Préparatoire, Cycle Ingénieur en Informatique",
+          "school": "ENSAK"
+        },
+        {
+          "degree": "Baccalauréat en Sciences Mathématiques A",
+          "school": "Lycée Palestine, Jorf El Melha"
+        }
+      ]
+    },
+    "highlights": [
+      {
+        "title": "Expérience",
+        "description": "Stages en Analyse de Données, Développement Web et Segmentation de Réseaux"
+      },
+      {
+        "title": "Langues", 
+        "description": "Arabe natif, Courant en Français et Anglais"
+      },
+      {
+        "title": "Objectif",
+        "description": "Recherche d'un stage PFE pour appliquer mes compétences dans des projets innovants"
+      }
+    ]
+  },
+  "Skills": {
+    "title": "Compétences & Technologies",
+    "subtitle": "Une boîte à outils complète pour le développement logiciel moderne et la science des données",
+    "categories": [
+      {
+        "category": "Langages de Programmation",
+        "skills": [
+          "Python",
+          "Java",
+          "C/C++",
+          "JavaScript",
+          "TypeScript",
+          "R",
+          "Bash",
+          "SQL"
+        ]
+      },
+      {
+        "category": "Développement Web",
+        "skills": [
+          "React.js",
+          "Next.js",
+          "Express.js",
+          "Angular",
+          "Vue.js",
+          "Node.js",
+          "Laravel",
+          "Rails",
+          "Bootstrap",
+          "HTML",
+          "CSS",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "category": "Science des Données & IA/ML",
+        "skills": [
+          "NumPy",
+          "Pandas",
+          "Scikit-learn",
+          "TensorFlow",
+          "PyTorch",
+          "OpenCV",
+          "NLP",
+          "LLMs (GPT, BERT, XLNet)",
+          "LangChain"
+        ]
+      },
+      {
+        "category": "Bases de Données",
+        "skills": [
+          "PostgreSQL",
+          "MySQL",
+          "MariaDB",
+          "MongoDB",
+          "Oracle",
+          "Redis",
+          "SQLite",
+          "Cassandra"
+        ]
+      },
+      {
+        "category": "Systèmes d’Exploitation",
+        "skills": [
+          "Windows",
+          "Linux (Ubuntu, Debian, Kali Linux)"
+        ]
+      },
+      {
+        "category": "Contrôle de Version",
+        "skills": [
+          "Git",
+          "GitHub",
+          "GitLab"
+        ]
+      },
+      {
+        "category": "Conception & Modélisation",
+        "skills": [
+          "UML",
+          "Figma",
+          "PowerAMC"
+        ]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "skills": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "CI/CD",
+          "Postman"
+        ]
+      },
+      {
+        "category": "Tests & Qualité Logicielle",
+        "skills": [
+          "Tests Unitaires",
+          "Tests d’Intégration",
+          "TDD",
+          "JUnit",
+          "PyTest",
+          "Selenium"
+        ]
+      },
+      {
+        "category": "Outils & Méthodologies",
+        "skills": [
+          "VS Code",
+          "QGIS",
+          "Linux",
+          "Agile/Scrum",
+          "Documentation"
+        ]
+      }
+    ],
+    "softSkills": {
+      "title": "Compétences Douces",
+      "skills": [
+        "Travail d’Équipe",
+        "Résolution de Problèmes",
+        "Pensée Critique",
+        "Gestion de Projet",
+        "Communication",
+        "Adaptabilité",
+        "Leadership",
+        "Vibe Coding"
+      ]
+    }
+  },
+  "Experience": {
+    "title": "Expérience Professionnelle",
+    "subtitle": "Expérience pratique en science des données, développement web et optimisation de réseaux",
+    "experiences": [
+      {
+        "title": "Stagiaire en Segmentation de Réseau Routier",
+        "company": "ORANGE MAROC",
+        "location": "Casablanca",
+        "period": "Juillet 2025 - Août 2025",
+        "type": "Présentiel",
+        "description": "Segmentation du réseau routier marocain pour l'optimisation du trafic en utilisant Python, Excel et des outils SIG.",
+        "technologies": ["Python", "Excel", "SIG", "QGIS", "Traitement de Données"],
+        "achievements": [
+          "Analysé et segmenté le réseau routier national",
+          "Créé des algorithmes d'optimisation du trafic",
+          "Généré des rapports géographiques détaillés"
+        ]
+      },
+      {
+        "title": "Stagiaire en Analyse de Données",
+        "company": "GOFTY SOLUTIONS",
+        "location": "Marrakech",
+        "period": "Juin 2024 - Août 2024",
+        "type": "Hybride",
+        "description": "Conception de chartflow pour structurer l'analyse des données et analyse de sentiment utilisant des techniques de ML Python.",
+        "technologies": ["Python", "Machine Learning", "Analyse de Données", "Analyse de Sentiment"],
+        "achievements": [
+          "Implémenté des modèles ML pour l'analyse de sentiment",
+          "Créé des tableaux de bord de visualisation de données",
+          "Optimisé les flux de traitement de données"
+        ]
+      },
+      {
+        "title": "Stagiaire en Développement Web",
+        "company": "GOFTY SOLUTIONS",
+        "location": "Marrakech",
+        "period": "Janvier 2024 - Mars 2024",
+        "type": "Distanciel",
+        "description": "Développement d'un site vitrine pour l'entreprise en utilisant React.",
+        "technologies": ["React", "JavaScript", "HTML/CSS", "Développement Web"],
+        "achievements": [
+          "Construit un site vitrine responsive pour l'entreprise",
+          "Implémenté un design UI/UX moderne",
+          "Optimisé les performances du site web"
+        ]
+      }
+    ],
+    "sections": {
+      "keyAchievements": "Réalisations Clés :",
+      "technologiesUsed": "Technologies Utilisées :"
+    },
+    "types": {
+      "onSite": "Présentiel",
+      "hybrid": "Hybride",
+      "remote": "Distanciel"
+    }
+  },
+  "Projects": {
+    "title": "Projets Académiques",
+    "subtitle": "Projets innovants mettant en valeur l'expertise technique et les compétences en résolution de problèmes",
+    "projects": [
+      {
+        "title": "Étude sur l'Employabilité des Diplômés Universitaires",
+        "description": "Analyse statistique des résultats d'emploi des diplômés universitaires utilisant la programmation R avancée et les techniques de visualisation de données Excel.",
+        "technologies": ["R", "Excel", "Statistiques", "Visualisation de Données"],
+        "category": "Analyse de Données",
+        "highlights": [
+          "Modélisation statistique complète",
+          "Visualisations de données interactives",
+          "Analyse des tendances de l'emploi"
+        ]
+      },
+      {
+        "title": "Vérificateur & Traducteur de Poèmes/Chansons Multilingue",
+        "description": "Application NLP avancée supportant l'arabe, le darija, le tamazight, le français et l'anglais avec traduction en temps réel et vérification de contenu.",
+        "technologies": ["Python", "Flask", "NLP", "Machine Learning"],
+        "category": "IA/NLP",
+        "highlights": [
+          "Support multilingue (5 langues)",
+          "Moteur de traduction en temps réel",
+          "Algorithmes de vérification de contenu"
+        ]
+      },
+      {
+        "title": "Prototype de Site Web de Réservation d'Hôtel",
+        "description": "Conception d'interface moderne de réservation d'hôtel avec expérience utilisateur intuitive et mise en page responsive pour une gestion fluide des réservations.",
+        "technologies": ["Figma", "Design UI/UX", "Prototypage"],
+        "category": "Design",
+        "highlights": [
+          "Approche de design centrée sur l'utilisateur",
+          "Prototype interactif",
+          "Système de design responsive"
+        ]
+      },
+      {
+        "title": "Extraction et Classification d'Offres d'Emploi",
+        "description": "Outil d'analyse intelligente du marché du travail qui extrait les offres d'emploi et les classe à l'aide d'algorithmes de machine learning.",
+        "technologies": ["Java", "Machine Learning", "Web Scraping"],
+        "category": "Machine Learning",
+        "highlights": [
+          "Extraction web automatisée",
+          "Classification d'emplois basée sur le ML",
+          "Analyse des tendances du marché"
+        ]
+      },
+      {
+        "title": "Système de Gestion des Absences",
+        "description": "Application web full-stack pour les établissements éducatifs pour suivre et gérer efficacement la présence des étudiants/employés.",
+        "technologies": ["React", "PostgreSQL", "Express.js", "Node.js"],
+        "category": "Full Stack",
+        "highlights": [
+          "Suivi de présence en temps réel",
+          "Contrôle d'accès basé sur les rôles",
+          "Système de rapports complet"
+        ]
+      }
+    ],
+    "sections": {
+      "keyFeatures": "Fonctionnalités Clés :",
+      "technologies": "Technologies :",
+      "viewMore": "Voir Plus de Projets sur GitHub"
+    },
+    "categories": {
+      "Data Analysis": "Analyse de Données",
+      "AI/NLP": "IA/NLP",
+      "Design": "Design",
+      "Machine Learning": "Machine Learning",
+      "Full Stack": "Full Stack"
+    }
+  },
+  "Contact": {
+    "title": "Me Contacter",
+    "subtitle": "Disponible pour un stage PFE à partir de janvier 2025. Discutons de comment je peux contribuer à votre équipe !",
+    "letsConnect": {
+      "title": "Connectons-nous",
+      "description": "Je recherche activement un stage PFE (Projet de Fin d'Études) à partir de janvier 2025. Avec mon background en ingénierie informatique et mon expérience pratique en science des données et développement web, je suis enthousiaste à l'idée de contribuer à des projets innovants et de continuer à apprendre."
+    },
+    "availability": {
+      "title": "Disponibilité",
+      "items": [
+        "🗓️ <strong>Disponible à partir de :</strong> janvier 2025",
+        "⏰ <strong>Durée :</strong> 4-6 mois (stage PFE)",
+        "🌍 <strong>Ouvert à :</strong> Postes en distanciel, hybride ou présentiel"
+      ]
+    },
+    "sendMessage": {
+      "title": "Envoyer un Message",
+      "labels": {
+        "name": "Nom",
+        "email": "Email",
+        "subject": "Sujet",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Votre nom",
+        "email": "votre.email@exemple.com",
+        "subject": "De quoi s'agit-il ?",
+        "message": "Parlez-moi de votre projet ou opportunité de stage..."
+      },
+      "submit": "Envoyer le Message"
+    },
+    "contactInfo": [
+      {
+        "label": "Email",
+        "value": "imane.tayebi@uit.ac.ma"
+      },
+      {
+        "label": "Téléphone",
+        "value": "+212 690 292 055"
+      },
+      {
+        "label": "Localisation",
+        "value": "Kénitra, Maroc"
+      },
+      {
+        "label": "Institution",
+        "value": "ENSAK Kénitra"
+      }
+    ],
+    "toast": {
+      "title": "Message envoyé !",
+      "description": "Merci pour votre message. Je vous répondrai bientôt !"
+    }
+  },
+  "Footer": {
+    "name": "Imane Tayebi",
+    "title": "Computer Science Engineer",
+    "copyright": "2025 Imane Tayebi. All rights reserved.",
+    "builtWith": "Built with React & TypeScript",
+    "availability": "🚀 Available for PFE internship starting January 2025",
+    "social": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

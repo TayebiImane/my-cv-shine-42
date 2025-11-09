@@ -1,71 +1,36 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
+
+interface ProjectItem {
+  title: string;
+  description: string;
+  technologies: string[];
+  category: string;
+  highlights: string[];
+}
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "University Graduates Employability Study", 
-      description: "Statistical analysis of employment outcomes for university graduates using advanced R programming and Excel data visualization techniques.",
-      technologies: ["R", "Excel", "Statistics", "Data Visualization"],
-      category: "Data Analysis",
-      highlights: [
-        "Comprehensive statistical modeling",
-        "Interactive data visualizations",
-        "Employment trend analysis"
-      ],
-      gradient: "from-blue-500/20 to-indigo-500/20"
-    },
-    {
-      title: "Multi-Language Poem/Song Verifier & Translator",
-      description: "Advanced NLP application supporting Arabic, Darija, Tamazight, French, and English with real-time translation and content verification.",
-      technologies: ["Python", "Flask", "NLP", "Machine Learning"],
-      category: "AI/NLP", 
-      highlights: [
-        "Multi-language support (5 languages)",
-        "Real-time translation engine", 
-        "Content verification algorithms"
-      ],
-      gradient: "from-purple-500/20 to-violet-500/20"
-    },
-    {
-      title: "Hotel Booking Website Prototype",
-      description: "Modern hotel booking interface design with intuitive user experience and responsive layout for seamless reservation management.",
-      technologies: ["Figma", "UI/UX Design", "Prototyping"],
-      category: "Design",
-      highlights: [
-        "User-centered design approach",
-        "Interactive prototype", 
-        "Responsive design system"
-      ],
-      gradient: "from-pink-500/20 to-rose-500/20"
-    },
-    {
-      title: "Job Offer Scraping & Classification",
-      description: "Intelligent job market analysis tool that scrapes job offers and classifies them using machine learning algorithms.",
-      technologies: ["Java", "Machine Learning", "Web Scraping"],
-      category: "Machine Learning",
-      highlights: [
-        "Automated web scraping",
-        "ML-based job classification",
-        "Market trend analysis"
-      ],
-      gradient: "from-green-500/20 to-emerald-500/20"
-    },
-    {
-      title: "Absence Management System",
-      description: "Full-stack web application for educational institutions to efficiently track and manage student/staff attendance.",
-      technologies: ["React", "PostgreSQL", "Express.js", "Node.js"],
-      category: "Full Stack",
-      highlights: [
-        "Real-time attendance tracking",
-        "Role-based access control",
-        "Comprehensive reporting system"
-      ],
-      gradient: "from-orange-500/20 to-red-500/20"
-    }
-  ];
+  const { t } = useTranslation();
 
+  // Récupération des données avec typage
+  const projects = (t('Projects.projects', { returnObjects: true }) || []) as ProjectItem[];
+  const categories = t('Projects.categories', { returnObjects: true }) as Record<string, string>;
+
+  // Ajouter les gradients aux projets
+  const projectsWithGradients = projects.map((project, index) => ({
+    ...project,
+    gradient: [
+      "from-blue-500/20 to-indigo-500/20",
+      "from-purple-500/20 to-violet-500/20",
+      "from-pink-500/20 to-rose-500/20",
+      "from-green-500/20 to-emerald-500/20",
+      "from-orange-500/20 to-red-500/20"
+    ][index]
+  }));
+
+  // Couleurs des catégories
   const categoryColors = {
     "Data Analysis": "bg-blue-500/10 text-blue-400 border-blue-400/20",
     "AI/NLP": "bg-purple-500/10 text-purple-400 border-purple-400/20",
@@ -81,15 +46,15 @@ const Projects = () => {
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
-            Academic Projects
+            {t('Projects.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Innovative projects showcasing technical expertise and problem-solving skills
+            {t('Projects.subtitle')}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {projects.map((project, index) => (
+          {projectsWithGradients.map((project, index) => (
             <Card 
               key={index} 
               className="glass p-6 h-full flex flex-col hover:glow transition-bounce hover:scale-105 hover:rotate-1 border-primary/20 animate-fade-in-up group cursor-pointer relative overflow-hidden"
@@ -103,7 +68,7 @@ const Projects = () => {
                     variant="outline" 
                     className={`${categoryColors[project.category as keyof typeof categoryColors]} hover:scale-110 transition-bounce group-hover:animate-glow-pulse`}
                   >
-                    {project.category}
+                    {categories[project.category] || project.category}
                   </Badge>
                 </div>
                 
@@ -118,7 +83,7 @@ const Projects = () => {
                 <div className="space-y-4">
                   <div className="animate-fade-in" style={{ animationDelay: `${index * 0.15 + 0.2}s` }}>
                     <h4 className="text-xs font-semibold text-primary mb-2">
-                      Key Features:
+                      {t('Projects.sections.keyFeatures')}
                     </h4>
                     <ul className="space-y-1">
                       {project.highlights.map((highlight, i) => (
@@ -136,7 +101,7 @@ const Projects = () => {
                   
                   <div className="animate-fade-in" style={{ animationDelay: `${index * 0.15 + 0.4}s` }}>
                     <h4 className="text-xs font-semibold text-primary mb-2">
-                      Technologies:
+                      {t('Projects.sections.technologies')}
                     </h4>
                     <div className="flex flex-wrap gap-1">
                       {project.technologies.map((tech, i) => (
@@ -162,9 +127,9 @@ const Projects = () => {
             variant="outline" 
             size="lg"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-bounce hover:scale-110 hover:rotate-1 group relative overflow-hidden"
-            onClick={() => window.open('https://github.com', '_blank')}
+            onClick={() => window.open('https://github.com/TayebiImane?tab=repositories', '_blank')}
           >
-            <span className="relative z-10">View More Projects on GitHub</span>
+            <span className="relative z-10">{t('Projects.sections.viewMore')}</span>
             <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
           </Button>
         </div>

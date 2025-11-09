@@ -1,54 +1,33 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { useTranslation } from 'react-i18next';
+
+interface ExperienceItem {
+  title: string;
+  company: string;
+  location: string;
+  period: string;
+  type: string;
+  description: string;
+  technologies: string[];
+  achievements: string[];
+}
 
 const Experience = () => {
-  const experiences = [
-    {
-      title: "Data Analysis Intern",
-      company: "GOFTY SOLUTIONS",
-      location: "Marrakech",
-      period: "June 2024 - August 2024", 
-      type: "Hybrid",
-      description: "Designed chartflow to structure data analysis and performed sentiment analysis using Python ML techniques.",
-      technologies: ["Python", "Machine Learning", "Data Analysis", "Sentiment Analysis"],
-      achievements: [
-        "Implemented ML models for sentiment analysis",
-        "Created data visualization dashboards", 
-        "Optimized data processing workflows"
-      ],
-      gradient: "from-blue-500/20 to-cyan-500/20"
-    },
-    {
-      title: "Web Development Intern",
-      company: "GOFTY SOLUTIONS",
-      location: "Marrakech", 
-      period: "January 2024 - March 2024",
-      type: "Remote",
-      description: "Developed a showcase website for the company using React.",
-      technologies: ["React", "JavaScript", "HTML/CSS", "Web Development"],
-      achievements: [
-        "Built responsive company showcase website",
-        "Implemented modern UI/UX design",
-        "Optimized website performance"
-      ],
-      gradient: "from-green-500/20 to-emerald-500/20"
-    },
-    {
-      title: "Road Network Segmentation Intern", 
-      company: "ORANGE MAROC",
-      location: "Casablanca",
-      period: "July 2023 - August 2023",
-      type: "On-site", 
-      description: "Segmented Moroccan road network for traffic optimization using Python, Excel, and GIS tools.",
-      technologies: ["Python", "Excel", "GIS", "QGIS", "Data Processing"],
-      achievements: [
-        "Analyzed and segmented national road network",
-        "Created traffic optimization algorithms",
-        "Generated detailed geographical reports"
-      ],
-      gradient: "from-orange-500/20 to-red-500/20"
-    }
-  ];
+  const { t } = useTranslation();
+
+  // Récupération des données avec typage
+  const experiences = (t('Experience.experiences', { returnObjects: true }) || []) as ExperienceItem[];
+
+  // Ajouter les gradients aux expériences
+  const experiencesWithGradients = experiences.map((exp, index) => ({
+    ...exp,
+    gradient: [
+      "from-orange-500/20 to-red-500/20",
+      "from-blue-500/20 to-cyan-500/20",
+      "from-green-500/20 to-emerald-500/20"
+    ][index]
+  }));
 
   return (
     <section id="experience" className="py-20 relative overflow-hidden">
@@ -57,15 +36,15 @@ const Experience = () => {
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 animate-scale-in-bounce">
-            Work Experience
+            {t('Experience.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Hands-on experience across data science, web development, and network optimization
+            {t('Experience.subtitle')}
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-8">
-          {experiences.map((exp, index) => (
+          {experiencesWithGradients.map((exp, index) => (
             <Card 
               key={index} 
               className="glass p-8 hover:glow transition-bounce hover:scale-105 hover:rotate-1 border-primary/20 animate-fade-in-up group cursor-pointer relative overflow-hidden"
@@ -108,7 +87,7 @@ const Experience = () => {
                     
                     <div className="mb-4 animate-fade-in" style={{ animationDelay: `${index * 0.2 + 0.3}s` }}>
                       <h4 className="text-sm font-semibold text-primary mb-2">
-                        Key Achievements:
+                        {t('Experience.sections.keyAchievements')}
                       </h4>
                       <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground group-hover:text-foreground transition-colors">
                         {exp.achievements.map((achievement, i) => (
@@ -127,7 +106,7 @@ const Experience = () => {
                   <div className="space-y-4 animate-fade-in-right" style={{ animationDelay: `${index * 0.2 + 0.5}s` }}>
                     <div>
                       <h4 className="text-sm font-semibold text-primary mb-2">
-                        Technologies Used:
+                        {t('Experience.sections.technologiesUsed')}
                       </h4>
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech, i) => (
