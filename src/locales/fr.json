@@ -387,5 +387,48 @@
       "github": "GitHub",
       "linkedin": "LinkedIn"
     }
+  },
+  "assets": {
+  "title": "assets",
+  "subtitle": "Voici mes principales assets",
+  "items": [
+    { "image": "Cert1.png" },
+    { "image": "Cert2.png" },
+    { "image": "Cert3.png" },
+    { "image": "Cert4.png" },
+    { "image": "Cert5.png" },
+    { "image": "Cert6.png" },
+    { "image": "Cert7.png" },
+    { "image": "Cert8.png" },
+    { "image": "Cert9.png" },
+    { "image": "Cert10.png" },
+    { "image": "Cert11.png" },
+    { "image": "Cert12.png" },
+    { "image": "Cert13.png" },
+    { "image": "Cert14.png" },
+    { "image": "Cert15.png" }
+  ]
+}
+
+  ,"Certifications": {
+    "title": "Certifications",
+    "subtitle": "Voici quelques cours et certifications complétés",
+    "items": [
+      { "image": "Cert1.png" },
+      { "image": "Cert2.png" },
+      { "image": "Cert3.png" },
+      { "image": "Cert4.png" },
+      { "image": "Cert5.png" },
+      { "image": "Cert6.png" },
+      { "image": "Cert7.png" },
+      { "image": "Cert8.png" },
+      { "image": "Cert9.png" },
+      { "image": "Cert10.png" },
+      { "image": "Cert11.png" },
+      { "image": "Cert12.png" },
+      { "image": "Cert13.png" },
+      { "image": "Cert14.png" },
+      { "image": "Cert15.png" }
+    ]
   }
 }

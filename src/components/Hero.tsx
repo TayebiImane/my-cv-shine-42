@@ -66,7 +66,7 @@ const Hero = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/username" 
+                  href="https://www.linkedin.com/in/imane-tayebi-82181a281/" 
                   className="text-muted-foreground hover:text-primary transition-smooth hover:scale-125 hover:rotate-12 animate-bounce-in group"
                   style={{ animationDelay: '1.2s' }}
                   aria-label={t('Hero.social.linkedin')}
